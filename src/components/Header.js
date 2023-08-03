@@ -8,7 +8,7 @@ const Header = () => {
             <img src={myLogo} width={177.78} height={100} />
             Welcome, Stanley.
             <div className="links">
-
+            
                 <a href="/">Home</a>
                 <a href="/1">1</a>
                 <a href="/2">2</a>
