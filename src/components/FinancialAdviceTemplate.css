@@ -1,11 +1,11 @@
 img {
     width: 250px;
-    height: 370px;
+    height: 280px;
     border-radius: 10px;
 }
 .adviceView {
-    background-color: #C6D2ED;
-    border: 30px solid #C6D2ED;
+    /*background-color: #C6D2ED;
+    border: 30px solid #C6D2ED;*/
     border-radius: 10px;
     margin: 30px;
 }

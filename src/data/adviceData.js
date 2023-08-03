@@ -1,7 +1,7 @@
 export const data = [
     {
-        img: "https://th.bing.com/th/id/OIP.rDR-U08byupLSuVVR_2r3QHaMa?pid=ImgDet&rs=1",
-        name: "Roth IRA",
+        img: "https://th.bing.com/th/id/OIP.8Twj50mWoMcy5z36tzlMKwAAAA?pid=ImgDet&rs=1",
+        name: "IRA",
         type: "Retirement"
     },
     {

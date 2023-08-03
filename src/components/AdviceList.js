@@ -5,7 +5,7 @@ import './AdviceList.css';
 const Advice = () => {
     return (
         <div>
-            <h1 className="title">Welcome to the Banking Education App!</h1>
+            <h1 className="title">Click the tiles below to learn more about your finances.</h1>
             <div className="advice">
                 {data.map((advice, index) => (
                     <AdviceTemplate name={advice.name} type={advice.type} image={advice.img} key={index}/>
