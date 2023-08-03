@@ -6,16 +6,12 @@ const Header = () => {
     return (
         <div className="header">
             <img src={myLogo} width={177.78} height={100} />
-            Welcome, Stanley.
+
             <div className="links">
-            
-                <a href="/">Home</a>
-                <a href="/1">1</a>
-                <a href="/2">2</a>
-                <a href="/3">3</a>
-                <a href="/4">4</a>
-                <a href="/5">5</a>
-                <a href="/6">6</a>
+                <Link to="/">Home</Link>
+                <Link to="/transactions">Transactions</Link>
+                <Link to="/advice">Financial Advice</Link>
+                <Link to="/goals">Goals</Link>
             </div>
         </div>
     );
