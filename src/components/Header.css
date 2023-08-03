@@ -1,10 +1,37 @@
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100px;
+  background-color: #014A77;
+  color: white;
+}
+
+.logo {
+  font-family: 'Belleza', sans-serif;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+}
+
+/* .header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 100px;
+    height: 100px; */
     /*background-image: linear-gradient(to right, #553c9a, #cdcf27);*/
-    background-image: radial-gradient(circle, #d6c916, #553c9a);
+    /* background-image: radial-gradient(circle, #d6c916, #553c9a);
     color: white;
   }
   
@@ -37,4 +64,4 @@
     text-decoration: none;
     color: white;
     font-weight: 600;
-  }
+  } */
