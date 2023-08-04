@@ -1,0 +1,5 @@
+.accounts {
+    display:grid;
+    justify-content: center;
+    flex-wrap:wrap;
+  }
