@@ -4,6 +4,13 @@ import { Link } from 'react-router-dom';
 import AdviceTemplate from './FinancialAdviceTemplate';
 import './AdviceList.css';
 
+const testIng = {
+    title: 'Contact: ',
+    email: 'email: xxx@gmail.com',
+    Github: ' Github: ',
+    linkedin: 'linkedin: '
+};
+
 const Advice = () => {
   return (
     <div className="container">
