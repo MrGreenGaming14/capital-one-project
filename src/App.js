@@ -1,6 +1,8 @@
 import Header from './components/Header';
 import './App.css';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Accounts from './components/AccountHome';
+
 
 function App() {
   return (
@@ -8,7 +10,7 @@ function App() {
       <Router>
         <Header/>
         <Routes>
-          <Route path="/" element={<h1>Home</h1>}/>
+          <Route path="/" element={<Accounts/>}/>
           <Route path="/transactions" element={<h1>Transactions</h1>}/>
           <Route path="/advice" element={<h1>Financial Advice</h1>}/>
           <Route path="/goals" element={<h1>Goals</h1>}/>
