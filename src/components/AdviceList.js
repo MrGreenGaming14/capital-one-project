@@ -3,16 +3,7 @@ import {useState} from 'react';
 import AdviceTemplate from './FinancialAdviceTemplate';
 import './AdviceList.css';
 
-const testIng = {
-    title: 'Contact: ',
-    email: 'email: xxx@gmail.com',
-    Github: ' Github: ',
-    linkedin: 'linkedin: '
-};
-
 const Advice = () => {
-    const[toggleImage, setToggleImage] = useState(true);
-    
     return (
         <div className="container">
             <h1 className="title">Click the tiles below to learn more about your finances.</h1>
