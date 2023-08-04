@@ -1,0 +1,5 @@
+.transactions {
+    display:grid;
+    justify-content: center;
+    flex-wrap:wrap;
+  }

@@ -1,0 +1,20 @@
+.transaction {
+    background-color: #edc6c6;
+    border: 5px solid #edc6c6;
+    border-radius: 10px;
+    margin: 10px;
+    width: 400px;
+    height: min-content;
+}
+
+.transactionType {
+    font-weight: 300px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.transactionBalance {
+    font-weight:300px;
+    font-size: 24px;
+    text-align: center;
+}
