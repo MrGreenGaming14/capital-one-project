@@ -8,6 +8,7 @@ import Saving from './components/Saving';
 import IRA from './components/IRA';
 import Budgeting from './components/Budgeting';
 import Retirement from './components/Retirement';
+import GoalInput from './components/Goals';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
           <Route path="/advice/ira" element={<IRA/>}/>
           <Route path="/advice/budgeting" element={<Budgeting/>}/>
           <Route path="/advice/retirement" element={<Retirement/>}/>
-          <Route path="/goals" element={<h1>Goals</h1>}/>
+          <Route path="/goals" element={<GoalInput/>}/>
         </Routes>
       </Router>
     </div>
@@ -30,3 +31,4 @@ function App() {
 }
 
 export default App;
+
