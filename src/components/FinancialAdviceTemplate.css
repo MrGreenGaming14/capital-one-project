@@ -1,0 +1,24 @@
+.container img {
+    width: 100%;
+    height: 320px;
+    box-shadow: 0 5px 15px #014A77;
+    overflow: hidden;
+    cursor: pointer;
+    /*border-radius: 10px;*/
+}
+
+.container img:hover {
+    transform: scale(1.1);
+}
+.adviceView {
+    /*background-color: #C6D2ED;
+    border: 30px solid #C6D2ED;*/
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.adviceName {
+    font-weight:bold;
+    font-size: 40px;
+}
+

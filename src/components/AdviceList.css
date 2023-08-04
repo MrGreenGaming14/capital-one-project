@@ -1,0 +1,27 @@
+.container {
+    width: 95%;
+    min-height: 100ch;
+    position: relative;
+    margin: 0 auto;
+}
+
+.container .title {
+    color: #014A77;
+    text-align: center;
+    padding: 15px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container .adviceContainer {
+    /*display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    */
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+    margin: 20px auto;
+}
+
