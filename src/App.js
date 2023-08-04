@@ -1,12 +1,8 @@
 import Header from './components/Header';
 import './App.css';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-<<<<<<< HEAD
-import Accounts from './components/AccountHome';
-
-=======
 import Advice from './components/AdviceList';
->>>>>>> origin/main
+import Accounts from './components/AccountHome';
 
 function App() {
   return (
@@ -16,7 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Accounts/>}/>
           <Route path="/transactions" element={<h1>Transactions</h1>}/>
-          <Route path="/advice" element={<h1>Welcome, to financial literacy.<Advice/></h1>}/>
+          <Route path="/advice" element={<Advice/>}/>
           <Route path="/goals" element={<h1>Goals</h1>}/>
         </Routes>
       </Router>
